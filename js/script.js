@@ -1,6 +1,9 @@
 function solution (roman) {
   let romanNums = ['I', 'IV', 'V', 'X', 'L', 'C', 'D', 'M']
   let arabNums = [1, 4, 5, 10, 50, 100, 500, 1000]
+    if (!isNaN(roman)) {
+    return roman;
+  } 
   if (romanNums.includes(roman)) {
     return arabNums[romanNums.indexOf(roman)]
   }
