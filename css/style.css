@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    color: #fff;
+    font-size: 1em;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif,'Quicksand';
+    background-image: url(https://deih43ym53wif.cloudfront.net/forum-romanum-rome-shutterstock_351471179_7f3cb808a8.jpeg);
+    overflow: hidden;
+    transition: background-color 200ms ease-in
+  }
+  
+  main {
+    width: 60%;
+    max-width: 1080px;
+    padding: 1em 0 2em;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 3.75em;
+    margin-bottom: 0.5em;
+    text-shadow: 0 2px 0 rgba(0,0,0, 0.1);
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+  }
+  
+  h2 {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center
+  }
+
+    h3 {
+    margin-top: flex;
+    font-size: 2.5em;
+    margin-top: auto;
+    text-align: center;
+    font-weight: normal;
+     line-height: 1.25;
+  margin: 0 0 3em;
+  color: #000000; 
+  padding: 0.3em;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 rgba(0,0,0, 0.1);
+  }
+    
+  .inputs {
+    max-width: 850px;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: lighter;
+    float: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+
+  .button {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
+  .chad{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .lift-input{
+    font-size: 1.8em;
+    width: 190px;
+    text-align: center;
+    height: 50px;
+    box-shadow: 30px;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif,'Quicksand';
+}
+
+
+  main p {
+    font-size: 1.9em;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  ul,
+  ol {
+    list-style-position: inside;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;  
+  }
+  li {
+    line-height: 1.25;
+    margin: 0 0 1.1em;
+    color: #000000; 
+    padding: 0.8em;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 rgba(0,0,0, 0.1);
+  }
+
+  .ribbon {
+    margin: 0;
+    padding: 0;
+    background: rebeccapurple;
+    color:white;
+    padding:1em 1em;
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translateX(30%) translateY(0%) rotate(45deg);
+    transform-origin: top left;
+  }
+  .ribbon:before,
+  .ribbon:after {
+    content: '';
+    position: absolute;
+    top:0;
+    margin: 0 -1px; /* tweak */
+    width: 100%;
+    height: 100%;
+    background: rebeccapurple;
+  }
+  .ribbon:before {
+    right:100%;
+  }
+  
+  .ribbon:after {
+    left:100%;
+  }
